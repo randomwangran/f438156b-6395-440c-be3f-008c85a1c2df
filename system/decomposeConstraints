@@ -25,39 +25,39 @@ constraints
 
         selection
         {
-            blob
-            {
-                source  surface;
-                surfaceType  triSurfaceMesh;
-                surfaceName  blob.obj;
-            }
-
-            box1
-            {
-                source  box;
-                min     (-10 -10 -10);
-                max     (1 1 1);
-            }
-
-            semi
-            {
-                source  sphere;
-                origin  (-2 -2 1);
-                radius  1;
-            }
-
-            mid
-            {
-                source  sphere;
-                origin  (5 0 4);
-                radius  1;
-            }
+            //-wr    blob
+            //-wr    {
+            //-wr        source  surface;
+            //-wr        surfaceType  triSurfaceMesh;
+            //-wr        surfaceName  blob.obj;
+            //-wr    }
+            //-wr
+            //-wr    box1
+            //-wr    {
+            //-wr        source  box;
+            //-wr        min     (-10 -10 -10);
+            //-wr        max     (1 1 1);
+            //-wr    }
+            //-wr
+            //-wr    semi
+            //-wr    {
+            //-wr        source  sphere;
+            //-wr        origin  (-2 -2 1);
+            //-wr        radius  1;
+            //-wr    }
+            //-wr
+            //-wr    mid
+            //-wr    {
+            //-wr        source  sphere;
+            //-wr        origin  (5 0 4);
+            //-wr        radius  1;
+            //-wr    }
 
             ball
             {
                 source  sphere;
-                origin  (15 4 8);
-                radius  3;
+                origin  (4 -0.6 4);
+                radius  5;
             }
 
             // This entry should generate a warning (and be ignored)
